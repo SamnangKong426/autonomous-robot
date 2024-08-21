@@ -161,7 +161,8 @@ class ImuPublisher(Node):
             imu_msg.orientation.x = qua.x
             imu_msg.orientation.y = qua.y
             imu_msg.orientation.z = qua.z
-            imu_msg.orientation.w = angle_radian[2]
+            # imu_msg.orientation.w = angle_radian[2]
+            imu_msg.orientation.w = qua.w
 
             imu_msg.angular_velocity.x = self.angularVelocity[0]
             imu_msg.angular_velocity.y = self.angularVelocity[1]

@@ -1,0 +1,22 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/tong/ros2_ws/install/smart_driver_can/lib/python3.10/site-packages",
+    "/home/tong/ros2_ws/install/ros_imu/lib/python3.10/site-packages",
+    "/home/tong/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+    "/home/tong/ros2_ws/install/can_motor/lib/python3.10/site-packages",
+    "/home/tong/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages",
+    "/home/tong/ros2_ws/install/autonomous_robot/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/tong/ros2_ws/install/smart_driver_can/lib/python3.10/site-packages",
+    "/home/tong/ros2_ws/install/ros_imu/lib/python3.10/site-packages",
+    "/home/tong/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+    "/home/tong/ros2_ws/install/can_motor/lib/python3.10/site-packages",
+    "/home/tong/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages",
+    "/home/tong/ros2_ws/install/autonomous_robot/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}

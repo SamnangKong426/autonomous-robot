@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tong/ros2_ws/install/realsense2_camera/include/**",
+        "/home/tong/ros2_ws/install/realsense2_camera_msgs/include/**",
+        "/home/tong/ros2_ws/install/depthimage_to_laserscan/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tong/ros2_ws/src/depthimage_to_laserscan/include/**",
+        "/home/tong/ros2_ws/src/realsense-ros-4.51.1/realsense2_camera/include/**",
+        "/home/tong/ros2_ws/src/ros2-smart_driver/custom_messages/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

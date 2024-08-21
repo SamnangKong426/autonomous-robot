@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>can_motor</name>
+  <version>0.0.1</version>
+  <description>A simple ROS2 package</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>can</depend>
+  <depend>custom_messages</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <executable>can_motor/motor_command_node.py</executable>
+  </export>
+</package>
+
