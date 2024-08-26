@@ -25,6 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'mecanum_control = robot_odometry.mecanum_control:main',
+            # 'odom_node = robot_odometry.mecanum_odom:main',
+            'odom_node = robot_odometry.odometry:main',
         ],
     },
 )
