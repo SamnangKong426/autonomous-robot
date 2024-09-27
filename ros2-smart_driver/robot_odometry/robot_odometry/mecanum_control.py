@@ -15,7 +15,7 @@ class MecanumPublisher(Node):
         self.Ly = 20    # distance between the two wheels on the y-axis (Dy = 40cm)
         self.r = 15.3/2  # radius of the wheel (D = 15.3cm)
         self.motors = [0, 0, 0, 0]  # motor speeds
-
+        self.get_logger().info('Mecanum Controller Node Started')
     def map_value(self, value, from_min, from_max, to_min, to_max):
         # Map the value from one range to another
         return (value - from_min) * (to_max - to_min) / (from_max - from_min) + to_min
