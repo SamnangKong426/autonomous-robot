@@ -82,5 +82,16 @@ This repository contains the code for the autonomous robot project. Which is a p
     ```
 
 
+## Packages and Their Purposes
 
+1. **`realsense_camera`**:
+   - **Purpose**: Handles the integration and data streaming from the Intel RealSense D455 camera. This package includes launch files to start the camera node and configure its parameters.
 
+2. **`ros_imu`**:
+   - **Purpose**: Manages the IMU sensor data. This package includes nodes and launch files for publishing IMU data, transforming it, and integrating it with other sensor data for localization.
+
+3. **`mecanum_robot`**:
+   - **Purpose**: Controls the mecanum wheels of the robot. This package includes nodes that subscribe to velocity commands and publish motor commands to control the robot's movement in all directions.
+
+4. **`autonomous_navigation`**:
+   - **Purpose**: Implements the autonomous navigation logic. This package processes sensor data from the camera and IMU to generate velocity commands for the robot, enabling it to navigate autonomously.
